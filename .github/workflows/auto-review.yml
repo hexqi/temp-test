@@ -12,9 +12,9 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v3
       - name: AI Code Reviewer
-        uses: freeedcom/ai-code-reviewer@v2.7.0
+        uses: freeedcom/ai-codereviewer@v2.7.0
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_API_MODEL: "gpt-3.5"
+          OPENAI_API_MODEL: "gpt-3.5-turbo"
           exclude: "**/*.json, **/*.md"
