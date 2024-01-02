@@ -19,3 +19,7 @@ jobs:
           LANGUAGE: Chinese
           OPENAI_API_ENDPOINT: https://api.openai.com/v1
           MODEL: gpt-3.5-turbo
+          LOG_LEVEL: debug
+          MAX_TOKENS: 4000
+          MAX_PATH_LENGTH: 50
+          
