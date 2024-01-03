@@ -19,9 +19,6 @@ jobs:
           LANGUAGE: Chinese
           OPENAI_API_ENDPOINT: https://api.openai.com/v1
           MODEL: gpt-3.5-turbo
-          LOG_LEVEL: trace
           MAX_TOKENS: 4000
           MAX_PATCH_LENGTH: 10000
-          PROMPT: Below there is a code diff for a low-code project using Vue3, please help me do a brief code review on it. Any bug risks and/or improvement suggestions are welcome.
-          IGNORE: package-lock.json
           
