@@ -19,7 +19,9 @@ jobs:
           LANGUAGE: Chinese
           OPENAI_API_ENDPOINT: https://api.openai.com/v1
           MODEL: gpt-3.5-turbo
-          LOG_LEVEL: debug
+          LOG_LEVEL: trace
           MAX_TOKENS: 4000
           MAX_PATH_LENGTH: 50
+          PROMPT: Below there is a code diff please help me do a brief code review.
+          IGNORE: package-lock.json
           
